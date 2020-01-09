@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+#header {
+    width: 100%;
+    background-color: slateblue;
+    height: 6rem;
+}
+
+#content {
+    width: 25%;
+    height: 70rem;
+    background-color: greenyellow;
+    float: left;
+}
+
+.aside1 {
+    width: 75%;
+    height: 35rem;
+    background-color: dodgerblue;
+    float: right;
+}
+
+.aside2 {
+    width: 75%;
+    height: 35rem;
+    background-color: goldenrod;
+    float: right;
+}
+
+
+#footer {
+    width: 100%;
+    height: 6rem;
+    background-color: slateblue;
+    clear: both;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
